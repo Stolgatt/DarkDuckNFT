@@ -83,13 +83,13 @@ Assurer que les images et métadonnées des NFT soient hébergées de manière d
 }
 ```
 
-## Conditions d'utilisation 
+## Conditions d'utilisation 
 
 - La création d'un NFT est exclusivement réservée à l'utilisateur qui déploie le contrat
 - Lors de la création d'un NFT, un nom, une description et une image (sous format png, jpeg ou webp uploadée depuis le PC OU via un CID d'une image stockée via IPFS) sont nécéssaires. La description a une longueur maximale de 255 caractères et le nom 100 caractères.
 
 
-## Bugs et Erreurs connus :
+## Bugs et Erreurs connus :
 
 ### Achat échoué après tentative précédente
 
