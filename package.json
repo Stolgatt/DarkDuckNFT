@@ -1,0 +1,37 @@
+{
+  "name": "darkduck-nft",
+  "version": "1.0.0",
+  "description": "This project is aimed at creating a plateform to create, own, sell and buy DarkDuck NFTs",
+  "keywords": [
+    "blockchain",
+    "NFT",
+    "Hardhat",
+    "RubberDucky"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.telecomnancy.univ-lorraine.fr:projets/2425/darkduck25/groupe06.git"
+  },
+  "license": "ISC",
+  "author": "Alexis CHAVY",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile && npm run copy-abi",
+    "copy-abi": "cp artifacts/src/contracts/DarkDuckNFT.sol/DarkDuckNFT.json darkduck-dapp/src/abi/DarkDuckNFT.json"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.23.0"
+  },
+  "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
+    "@openzeppelin/contracts": "^5.3.0",
+    "busboy": "^1.6.0",
+    "ethers": "^6.13.5",
+    "form-data": "^4.0.2",
+    "formidable": "^3.5.4",
+    "node-fetch": "^3.3.2"
+  }
+}
